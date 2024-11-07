@@ -1,4 +1,602 @@
-[17:24:27] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[17:24:27] [Server thread/INFO]: Loading properties
-[17:24:27] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
-[17:24:27] [Server thread/INFO]: Stopping server
+[18:54:53] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[18:54:53] [Server thread/INFO]: Loading properties
+[18:54:54] [Server thread/INFO]: Default game type: SURVIVAL
+[18:54:54] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[18:54:54] [Server thread/INFO]: Debug logging is disabled
+[18:54:54] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[18:54:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[18:54:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:54:55] [Server thread/INFO]: Data value allowed items: 
+[18:54:55] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[18:54:55] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[18:54:55] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[18:54:55] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[18:54:55] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[18:54:55] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[18:54:55] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[18:54:55] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[18:54:55] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[18:54:55] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[18:54:55] [Server thread/INFO]: Generating keypair
+[18:54:55] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[18:54:55] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[18:54:55] [Server thread/INFO]: Using default channel type
+[18:54:56] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[18:54:56] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[18:54:56] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[18:54:56] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[18:54:56] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[18:54:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:54:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:54:56] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[18:54:56] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[18:54:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:54:56] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[18:54:56] [Server thread/INFO]: Preparing level "world"
+[18:54:56] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:54:56] [Server thread/INFO]: Mob Spawn Range: 4
+[18:54:56] [Server thread/INFO]: Anti X-Ray: true
+[18:54:56] [Server thread/INFO]: 	Engine Mode: 1
+[18:54:56] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:54:56] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:54:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:54:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:54:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:54:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:54:56] [Server thread/INFO]: Random Lighting Updates: false
+[18:54:56] [Server thread/INFO]: Structure Info Saving: true
+[18:54:56] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:54:56] [Server thread/INFO]: Max Entity Collisions: 8
+[18:54:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:54:56] [Server thread/INFO]: Max TNT Explosions: 100
+[18:54:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:54:56] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:54:56] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:54:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:54:56] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:54:56] [Server thread/INFO]: View Distance: 4
+[18:54:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:54:56] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:54:56] [Server thread/INFO]: Clear tick list: false
+[18:54:56] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:54:56] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:54:56] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:54:56] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:54:56] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:54:56] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:54:56] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:54:56] [Server thread/INFO]: Water over lava flow speed: 5
+[18:54:56] [Server thread/INFO]: Fix TNT cannons: false
+[18:54:56] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:54:56] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:54:56] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:54:56] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:54:56] [Server thread/INFO]: World async lighting: false
+[18:54:56] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:54:56] [Server thread/INFO]: Mob Spawn Range: 4
+[18:54:56] [Server thread/INFO]: Anti X-Ray: true
+[18:54:56] [Server thread/INFO]: 	Engine Mode: 1
+[18:54:56] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:54:56] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:54:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:54:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:54:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:54:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:54:56] [Server thread/INFO]: Random Lighting Updates: false
+[18:54:56] [Server thread/INFO]: Structure Info Saving: true
+[18:54:56] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:54:56] [Server thread/INFO]: Max Entity Collisions: 8
+[18:54:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:54:56] [Server thread/INFO]: Max TNT Explosions: 100
+[18:54:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:54:56] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:54:56] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:54:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:54:56] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:54:56] [Server thread/INFO]: View Distance: 4
+[18:54:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:54:56] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:54:56] [Server thread/INFO]: Clear tick list: false
+[18:54:56] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:54:56] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:54:56] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:54:56] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:54:56] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:54:56] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:54:56] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:54:56] [Server thread/INFO]: Water over lava flow speed: 5
+[18:54:56] [Server thread/INFO]: Fix TNT cannons: false
+[18:54:56] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:54:56] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:54:56] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:54:56] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:54:56] [Server thread/INFO]: World async lighting: false
+[18:54:56] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:54:56] [Server thread/INFO]: Mob Spawn Range: 4
+[18:54:56] [Server thread/INFO]: Anti X-Ray: true
+[18:54:56] [Server thread/INFO]: 	Engine Mode: 1
+[18:54:56] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:54:56] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:54:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:54:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:54:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:54:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:54:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:54:56] [Server thread/INFO]: Random Lighting Updates: false
+[18:54:56] [Server thread/INFO]: Structure Info Saving: true
+[18:54:56] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:54:56] [Server thread/INFO]: Max Entity Collisions: 8
+[18:54:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:54:56] [Server thread/INFO]: Max TNT Explosions: 100
+[18:54:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:54:56] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:54:56] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:54:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:54:56] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:54:56] [Server thread/INFO]: View Distance: 4
+[18:54:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:54:56] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:54:56] [Server thread/INFO]: Clear tick list: false
+[18:54:56] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:54:56] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:54:56] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:54:56] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:54:56] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:54:56] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:54:56] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:54:56] [Server thread/INFO]: Water over lava flow speed: 5
+[18:54:56] [Server thread/INFO]: Fix TNT cannons: false
+[18:54:56] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:54:56] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:54:56] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:54:56] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:54:56] [Server thread/INFO]: World async lighting: false
+[18:54:56] [Server thread/INFO]: Preparing start region for level 0 (Seed: 8633923837179759973)
+[18:54:57] [Server thread/INFO]: Preparing spawn area: 30%
+[18:54:58] [Server thread/INFO]: Preparing spawn area: 79%
+[18:54:58] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8633923837179759973)
+[18:54:59] [Server thread/INFO]: Preparing spawn area: 10%
+[18:55:01] [Server thread/INFO]: Preparing spawn area: 34%
+[18:55:02] [Server thread/INFO]: Preparing spawn area: 56%
+[18:55:03] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8633923837179759973)
+[18:55:04] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[18:55:04] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[18:55:04] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[18:55:04] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[18:55:04] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[18:55:04] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[18:55:04] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:55:04] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[18:55:04] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[18:55:04] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[18:55:04] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[18:55:05] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[18:55:05] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[18:55:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:55:05] [Server thread/INFO]: Done (9.024s)! For help, type "help" or "?"
+[18:55:05] [Server thread/INFO]: Timings Reset
+[18:55:06] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[18:55:06] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[18:55:06] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[18:55:38] [Thread-7/INFO]: UUID of player codey_the_forth is 2f826045-26a0-3e55-836f-e9bb1b236324
+[18:55:38] [Server thread/INFO]: codey_the_forth[/[0:0:0:0:0:0:0:1]:42298] logged in with entity id 745 at ([world]-299.82992329933114, 67.28377592335725, 222.07123370106189)
+[18:55:51] [Thread-8/INFO]: UUID of player PIGGA is 625d0902-23bb-3e01-9a9e-f8e7a5bac8c8
+[18:55:51] [Server thread/INFO]: PIGGA[/[0:0:0:0:0:0:0:1]:59154] logged in with entity id 942 at ([world]-993.6999999880791, 10.0, 480.47837442726785)
+[18:56:01] [Thread-9/INFO]: UUID of player Aizen1 is a95046b8-64f5-3950-bd94-bd070d5653b8
+[18:56:01] [Server thread/INFO]: Aizen1[/[0:0:0:0:0:0:0:1]:55630] logged in with entity id 1164 at ([world]-897.137185047798, 37.0, 385.76634859383944)
+[18:59:11] [Server thread/INFO]: Aizen1 fell out of the world
+[18:59:30] [Server thread/INFO]: Aizen1 issued server command: /home Hold
+[19:01:12] [Server thread/INFO]: Aizen1 lost connection: Disconnected
+[19:01:12] [Server thread/INFO]: Aizen1 left the game.
+[19:18:51] [Server thread/INFO]: PIGGA issued server command: /home Home
+[19:19:34] [Server thread/INFO]: PIGGA lost connection: Disconnected
+[19:19:34] [Server thread/INFO]: PIGGA left the game.
+[19:20:05] [Server thread/INFO]: codey_the_forth lost connection: Disconnected
+[19:20:05] [Server thread/INFO]: codey_the_forth left the game.
+[19:30:03] [Server thread/INFO]: There are 0/20 players online:
+[19:30:03] [Server thread/INFO]: 
+[19:30:07] [Server thread/INFO]: Killed Pig
+[19:30:07] [Server thread/INFO]: Killed Pig
+[19:30:07] [Server thread/INFO]: Killed Pig
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: Killed Pig
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: Killed Pig
+[19:30:07] [Server thread/INFO]: Killed Pig
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: Killed Pig
+[19:30:07] [Server thread/INFO]: Killed Pig
+[19:30:07] [Server thread/INFO]: Killed Pig
+[19:30:07] [Server thread/INFO]: Killed Pig
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: Killed Creeper
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Pig
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed entity.ItemFrame.name
+[19:30:07] [Server thread/INFO]: Killed entity.ItemFrame.name
+[19:30:07] [Server thread/INFO]: Killed Armor Stand
+[19:30:07] [Server thread/INFO]: Killed Painting
+[19:30:07] [Server thread/INFO]: Killed entity.ItemFrame.name
+[19:30:07] [Server thread/INFO]: Killed Armor Stand
+[19:30:07] [Server thread/INFO]: Killed entity.ItemFrame.name
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: Killed entity.ItemFrame.name
+[19:30:07] [Server thread/INFO]: Killed Armor Stand
+[19:30:07] [Server thread/INFO]: Killed entity.ItemFrame.name
+[19:30:07] [Server thread/INFO]: Killed Armor Stand
+[19:30:07] [Server thread/INFO]: Killed entity.ItemFrame.name
+[19:30:07] [Server thread/INFO]: Killed entity.ItemFrame.name
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed item.item.egg
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Sheep
+[19:30:07] [Server thread/INFO]: Killed Experience Orb
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed item.item.egg
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Sheep
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Bat
+[19:30:07] [Server thread/INFO]: Killed Skeleton
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Spider
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Sheep
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: Killed Sheep
+[19:30:07] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: Killed Creeper
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: Killed Sheep
+[19:30:07] [Server thread/INFO]: Killed Zombie
+[19:30:07] [Server thread/INFO]: Killed Pig
+[19:30:07] [Server thread/INFO]: Killed Chicken
+[19:30:07] [Server thread/INFO]: Killed Pig
+[19:30:07] [Server thread/INFO]: Killed Experience Orb
+[19:30:07] [Server thread/INFO]: Killed Sheep
+[19:30:07] [Server thread/INFO]: Killed Creeper
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: Killed Skeleton
+[19:30:07] [Server thread/INFO]: Killed Zombie
+[19:30:07] [Server thread/INFO]: Killed Creeper
+[19:30:07] [Server thread/INFO]: Killed Pig
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: Killed Zombie
+[19:30:07] [Server thread/INFO]: Killed Pig
+[19:30:07] [Server thread/INFO]: Killed Zombie
+[19:30:07] [Server thread/INFO]: Killed Pig
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: Killed Pig
+[19:30:07] [Server thread/INFO]: Killed Skeleton
+[19:30:07] [Server thread/INFO]: Killed Zombie
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: Killed Creeper
+[19:30:07] [Server thread/INFO]: Killed Cow
+[19:30:07] [Server thread/INFO]: Killed Skeleton
+[19:30:07] [Server thread/INFO]: Killed Zombie
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: Killed Sheep
+[19:30:07] [Server thread/INFO]: Killed Cow
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: That entity cannot be found
+[19:30:07] [Server thread/INFO]: Killed Creeper
+[19:30:07] [Server thread/INFO]: Killed Enderman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed Experience Orb
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[19:30:16] [Server thread/INFO]: Killed Pig
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Pig
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Pig
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Pig
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed Pig
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed Pig
+[19:30:16] [Server thread/INFO]: Killed Pig
+[19:30:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed Zombie Pigman
+[19:30:16] [Server thread/INFO]: Killed item.item.sulphur
+[19:30:16] [Server thread/INFO]: Killed item.item.chickenRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.feather
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed item.item.chickenRaw
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed item.item.chickenRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.feather
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed item.item.chickenRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.feather
+[19:30:16] [Server thread/INFO]: Killed item.item.chickenRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.chickenRaw
+[19:30:16] [Server thread/INFO]: Killed item.tile.cloth.gray
+[19:30:16] [Server thread/INFO]: Killed item.item.muttonRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.chickenRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.feather
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed item.tile.cloth.white
+[19:30:16] [Server thread/INFO]: Killed item.item.muttonRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.chickenRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.feather
+[19:30:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[19:30:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[19:30:16] [Server thread/INFO]: Killed item.item.bone
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed item.item.string
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed item.item.goldNugget
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed item.item.sulphur
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed item.item.muttonRaw
+[19:30:16] [Server thread/INFO]: Killed item.tile.cloth.white
+[19:30:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed Pig
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[19:30:16] [Server thread/INFO]: Killed Pig
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[19:30:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[19:30:16] [Server thread/INFO]: Killed Pig
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.arrow
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed item.item.beefRaw
+[19:30:16] [Server thread/INFO]: Killed item.item.bone
+[19:30:16] [Server thread/INFO]: Killed item.item.bone
+[19:30:16] [Server thread/INFO]: Killed item.item.arrow
+[19:30:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[19:30:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed item.tile.cloth.white
+[19:30:16] [Server thread/INFO]: Killed item.item.muttonRaw
+[19:30:16] [Server thread/INFO]: Killed Cow
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: That entity cannot be found
+[19:30:16] [Server thread/INFO]: Killed item.item.sulphur
+[19:30:16] [Server thread/INFO]: Killed item.item.enderPearl
+[19:30:53] [Thread-12/INFO]: UUID of player Mor is 3016efcc-a0e9-3f98-b904-577d430e6c09
+[19:30:53] [Server thread/INFO]: Mor[/[0:0:0:0:0:0:0:1]:42530] logged in with entity id 9077 at ([world]-118.85980411028049, 5.0, 207.24819525876387)
+[19:31:13] [Server thread/INFO]: Mor issued server command: //undo

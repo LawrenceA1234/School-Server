@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "616c5cc7-5823-3acd-98af-1648b49d60da",
+    "name": "lawdou1234",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "568a7c5e-c832-30b5-a0c2-a12252ce0059",
+    "name": "Mor2",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "3016efcc-a0e9-3f98-b904-577d430e6c09",
+    "name": "Mor",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
